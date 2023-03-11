@@ -1,0 +1,31 @@
+package com.test;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.page.SignUpPage;
+import com.testbase.TestBase;
+import com.utilities.Utilities;
+
+public class SignUTestcases extends TestBase {
+	SignUpPage signup;
+	@BeforeClass
+	public void setUp() {
+		initialization();
+		signup = new SignUpPage();
+	}
+	@DataProvider (name = "dataprovider2")
+	public Object[][] dpMethod2() {
+	Object newTestData[][] = Utilities.getTestData("Sheet1");
+	System.out.print("hiiii gteee"+newTestData);
+	return newTestData;
+	}
+	
+	@Test(priority = 1,dataProvider ="dataprovider2")
+	
+	public void clickSigninButton(String uname,String pword) {
+		signup.clickSignin(uname,pword);
+	}
+
+}

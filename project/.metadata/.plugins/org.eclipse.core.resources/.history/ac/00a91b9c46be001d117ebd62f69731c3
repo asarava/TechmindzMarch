@@ -1,0 +1,124 @@
+package com.test;
+
+import java.util.concurrent.TimeUnit;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.page.AboutUs;
+import com.page.HomePage;
+import com.page.LoginPage;
+import com.page.SignUpPage;
+import com.testbase.TestBase;
+import com.utilities.Utilities;
+
+public class HomePageTestCases extends TestBase {
+
+	HomePage homePage;
+	SignUpPage signup;
+	LoginPage login;
+	AboutUs about;
+	
+
+	public HomePageTestCases() {
+		super();
+	}
+
+	@BeforeClass
+	public void setUp() {
+		initialization();
+		homePage = new HomePage();
+		login= new LoginPage();
+		signup = new SignUpPage();
+		about = new AboutUs();
+	}
+	
+/*	@DataProvider (name = "dataprovider2")
+	public Object[][] dpMethod2() {
+	Object newTestData[][] = Utilities.getTestData("Sheet1");
+	System.out.print("hiiii gteee"+newTestData);
+	return newTestData;
+	}
+	
+	
+	//  signup
+	
+	@Test(priority = 1,dataProvider ="dataprovider2")
+	
+	public void clickSigninButton(String uname,String pword) {
+		System.out.println("I am sreeshma");
+		signup.clickSignin(uname,pword);
+	}
+	@DataProvider (name = "dataprovider3")
+	public Object[][] dpMethod3() {
+	Object newTestData[][] = Utilities.getTestData("Sheet2");
+	System.out.print(newTestData);
+	return newTestData;
+	}
+	
+	//login
+
+	@Test(priority = 2,dataProvider ="dataprovider3")
+	public void clickLogininButton(String uname,String pword) {
+		System.out.println("I am greeshma");
+
+		login.clickloginin(uname,pword);
+	}*/
+    
+	
+	//About Us
+	@Test(priority=1)
+	public void aboutUs() {
+		about.clickAboutUs();
+	}
+	
+	
+	
+	@Test(priority =2)
+	public void videoplay() {
+		about.play();
+	}
+	
+	@Test(priority =5)
+	public void videopause() {
+		about.pause();
+		
+	}
+	@Test(priority =3)
+	public void volume() {
+		about.volumnMute();
+		about.fullScreen();
+		about.volumnUnMute();
+		
+	}
+	@Test(priority =4)
+	public void screen() {
+		about.volumnUnMute();
+		about.nonFullScreen();
+		
+	}
+	@Test(priority=6)
+	public void clickAboutClose() {
+		about.aboutUsClose();
+	}
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+		
+	}
+	
+	
+
+

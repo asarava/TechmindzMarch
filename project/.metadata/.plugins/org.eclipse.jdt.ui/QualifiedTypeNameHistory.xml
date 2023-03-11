@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.page.SignUpPage"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+    <fullyQualifiedTypeName name="com.page.LoginPage"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
+    <fullyQualifiedTypeName name="com.page.AboutUs"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+    <fullyQualifiedTypeName name="java.awt.Desktop.Action"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Action"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+    <fullyQualifiedTypeName name="com.page.Categories"/>
+    <fullyQualifiedTypeName name="org.testng.Assert"/>
+    <fullyQualifiedTypeName name="com.page.Cartpage"/>
+    <fullyQualifiedTypeName name="com.testbase.TestBase"/>
+    <fullyQualifiedTypeName name="com.page.Contact"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.TakesScreenshot"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
+    <fullyQualifiedTypeName name="com.relevantcodes.extentreports.ExtentReports"/>
+    <fullyQualifiedTypeName name="com.relevantcodes.extentreports.ExtentTest"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="org.testng.ITestResult"/>
+    <fullyQualifiedTypeName name="com.relevantcodes.extentreports.LogStatus"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
+</qualifiedTypeNameHistroy>

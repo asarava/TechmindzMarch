@@ -1,0 +1,210 @@
+package com.test;
+
+import java.util.concurrent.TimeUnit;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.page.AboutUs;
+import com.page.Cartpage;
+import com.page.Categories;
+import com.page.Contact;
+import com.page.HomePage;
+import com.page.LoginPage;
+import com.page.SignUpPage;
+import com.testbase.TestBase;
+import com.utilities.Utilities;
+
+public class HomePageTestCases extends TestBase {
+
+	HomePage homePage;
+	SignUpPage signup;
+	LoginPage login;
+	AboutUs about;
+	Categories category;
+	Cartpage cartpage;
+	Contact contact;
+
+	public HomePageTestCases() {
+		super();
+	}
+
+	@BeforeClass
+	public void setUp() {
+		initialization();
+		homePage = new HomePage();
+		login = new LoginPage();
+		signup = new SignUpPage();
+		about = new AboutUs();
+		category = new Categories();
+		cartpage = new Cartpage();
+		contact = new Contact();
+	}
+
+	@DataProvider(name = "dataprovider2")
+	public Object[][] dpMethod2() {
+		Object newTestData[][] = Utilities.getTestData("Sheet1");
+		System.out.print("hiiii gteee" + newTestData);
+		return newTestData;
+	}
+
+	// signup
+
+	@Test(priority = 1, dataProvider = "dataprovider2" )
+
+	public void clickSigninButton(String uname, String pword) {
+		System.out.println("I am sreeshma");
+		signup.clickSignin(uname, pword);
+	}
+
+	// signup
+
+	@DataProvider(name = "dataprovider3")
+	public Object[][] dpMethod3() {
+		Object newTestData[][] = Utilities.getTestData("Sheet2");
+		System.out.print(newTestData);
+		return newTestData;
+	}
+
+	// login
+
+	@Test(priority = 2, dataProvider = "dataprovider3")
+	public void clickLogininButton(String uname, String pword) {
+		System.out.println("I am greeshma");
+
+		login.clickloginin(uname, pword);
+	}
+	// login
+
+	// About Us
+
+	@Test(priority = 3,groups= {"First"})
+	public void aboutUs() {
+		about.clickAboutUs();
+	}
+
+	@Test(priority = 4,groups= {"First"})
+	public void videoplay() {
+		about.play();
+	}
+
+	@Test(priority = 5,groups= {"First"})
+	public void screen() {
+		about.fullScreen();
+		about.nonFullScreen();
+
+	}
+
+	@Test(priority = 6,groups= {"First"})
+	public void volume() {
+		about.volumnMute();
+		about.volumnUnMute();
+
+	}
+
+	@Test(priority = 7,groups= {"First"})
+	public void videopause() {
+		about.pause();
+
+	}
+
+	@Test(priority = 8,groups= {"First"})
+	public void clickAboutClose() {
+		about.aboutUsClose();
+	}
+
+	// About Us
+
+	// Home categories
+
+	@Test(priority = 10,groups= {"Second"})
+	public void selectCategory() {
+
+		category.categoriesclick();
+
+	}
+
+	@Test(priority = 11,groups= {"Second"})
+	public void addtoCart() {
+
+		category.selectItem();
+	}
+	// Search
+
+	@Test(priority = 12,groups= {"Second"})
+	public void searchBar() {
+		category.serachAvail();
+	}
+
+	@Test(priority = 13,groups= {"Second"})
+	public void review() {
+		category.reviewavail();
+	}
+
+	@Test(priority = 14,groups= {"Second"})
+	public void filter() {
+		category.reviewavail();
+	}
+
+	@Test(priority = 3,groups= {"Second"})
+	public void sort() {
+		category.reviewavail();
+	}
+
+	@Test(priority = 15,groups= {"Second"})
+	public void cartPage() {
+		cartpage.cart();
+	}
+
+	@Test(priority = 16,groups= {"Second"})
+	public void clickDelete() {
+		cartpage.delete();
+	}
+	
+	//cart
+
+	@Test(priority = 17,groups= {"Third"})
+	public void clickOrderPlace() {
+		cartpage.orderPlace();
+	}
+
+	@Test(priority = 18,groups= {"Third"})
+	public void validTest() {
+		cartpage.enterValidata("Greeshma", "India", "Kochi", "9632145588", "March", "2020");
+	}
+
+	@Test(priority = 19,groups= {"Third"})
+	public void inValidTest() {
+		cartpage.invaliData("", "", "", "", "", "");
+	}
+
+	
+	//contact
+	
+	@Test(priority = 21,groups= {"Fourth"})
+	public void validContact() {
+		contact.clickContact();
+		contact.validData("grees@hh.cc", "Greeshma", "Test message");
+	}
+
+	@Test(priority = 22,groups= {"Fourth"})
+	public void invalidContact() {
+		contact.clickContact();
+		contact.invalidData("", "", "");
+	}
+
+	@Test(priority = 23,groups= {"Fourth"})
+	public void invalidContactmsg() {
+		contact.clickContact();
+		contact.validDatamsg100("greesh@jj.mm", "greeshma",
+				"The newspaper is the mirror of the world. It plays a vital role in modern civilization. "
+						+ "In our country newspapers are published in many languages. It helps us to acquire general knowledge. Newspapers provide reports, "
+						+ "speeches, reviews on trade and commerce, films, sports, etc, and puzzles. Sometimes it publishes articles written by great scholars. "
+						+ "People read newspapers for both profit and pleasure. It brings to the public valuable views, acts of injustice, oppression, and maladministration."
+						+ " It exposes the grievances of the people and criticizes the authorities for their failure. It shapes public opinion. Therefore, freedom of the press should not be barred.");
+	}
+
+}

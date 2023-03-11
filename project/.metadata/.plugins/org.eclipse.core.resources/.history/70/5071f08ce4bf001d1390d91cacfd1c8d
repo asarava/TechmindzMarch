@@ -1,0 +1,23 @@
+package com.page;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.testbase.TestBase;
+import com.utilities.Wrapper;
+
+public class Contact extends TestBase {
+
+	Wrapper wrobj = new Wrapper();
+	@FindBy(xpath = "//a[text()=\\\"Delete\\\"]")
+	WebElement pContact;
+	@FindBy(id = "recipient-email")
+	WebElement pEmail;
+	@FindBy(id = "recipient-name")
+	WebElement pname;
+	@FindBy(id = "message-text-name")
+	WebElement pmessage;
+	@FindBy(xpath = "(//button[text()=\"Close\"])[1]")
+	WebElement pClose;
+	
+}

@@ -1,0 +1,41 @@
+package com.page;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.testbase.TestBase;
+import com.utilities.Wrapper;
+
+public class LoginPage extends TestBase{
+	Wrapper wrobj = new Wrapper();
+
+	@FindBy(id = "login2")
+	WebElement pLoginin;
+	@FindBy(id = "loginusername")
+	WebElement pLoginUserName;
+	@FindBy(id = "loginpassword")
+	WebElement pLoginPword;
+	@FindBy(xpath = "(//button[@class=\"btn btn-primary\"])[3]")
+	WebElement pLoginPwordButton;
+	public LoginPage() {
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void clickloginin(String uname,String pword) {
+		pSignIn.click();
+		wrobj.explicitWait(driver, pSigninButton);
+		pSingnUsername.clear();		
+		pSingnUsername.sendKeys(uname);
+		pSingnPword.clear();
+		pSingnPword.sendKeys(pword);
+		pSigninButton.click();
+		wrobj.explicitWaitAlert(driver);
+		wrobj.alertClose(driver);
+		pSignUpClose.click();
+
+	}
+}
+
+
+

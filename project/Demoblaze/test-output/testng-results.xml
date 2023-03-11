@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="31" passed="21" failed="10" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-11T16:40:10 IST" name="Default suite" finished-at="2023-03-11T16:41:11 IST" duration-ms="61017">
+    <groups>
+      <group name="Second">
+        <method signature="HomePageTestCases.addtoCart()[pri:10, instance:com.test.HomePageTestCases@6b81ce95]" name="addtoCart" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.cartPage()[pri:14, instance:com.test.HomePageTestCases@6b81ce95]" name="cartPage" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.clickDelete()[pri:15, instance:com.test.HomePageTestCases@6b81ce95]" name="clickDelete" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.filter()[pri:13, instance:com.test.HomePageTestCases@6b81ce95]" name="filter" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.review()[pri:12, instance:com.test.HomePageTestCases@6b81ce95]" name="review" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.searchBar()[pri:11, instance:com.test.HomePageTestCases@6b81ce95]" name="searchBar" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.selectCategory()[pri:9, instance:com.test.HomePageTestCases@6b81ce95]" name="selectCategory" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.sort()[pri:14, instance:com.test.HomePageTestCases@6b81ce95]" name="sort" class="com.test.HomePageTestCases"/>
+      </group> <!-- Second -->
+      <group name="Third">
+        <method signature="HomePageTestCases.clickOrderPlace()[pri:16, instance:com.test.HomePageTestCases@6b81ce95]" name="clickOrderPlace" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.inValidTest()[pri:18, instance:com.test.HomePageTestCases@6b81ce95]" name="inValidTest" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.validTest()[pri:17, instance:com.test.HomePageTestCases@6b81ce95]" name="validTest" class="com.test.HomePageTestCases"/>
+      </group> <!-- Third -->
+      <group name="First">
+        <method signature="HomePageTestCases.aboutUs()[pri:3, instance:com.test.HomePageTestCases@6b81ce95]" name="aboutUs" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.clickAboutClose()[pri:8, instance:com.test.HomePageTestCases@6b81ce95]" name="clickAboutClose" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.screen()[pri:5, instance:com.test.HomePageTestCases@6b81ce95]" name="screen" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.videopause()[pri:7, instance:com.test.HomePageTestCases@6b81ce95]" name="videopause" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.videoplay()[pri:4, instance:com.test.HomePageTestCases@6b81ce95]" name="videoplay" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.volume()[pri:6, instance:com.test.HomePageTestCases@6b81ce95]" name="volume" class="com.test.HomePageTestCases"/>
+      </group> <!-- First -->
+      <group name="Fourth">
+        <method signature="HomePageTestCases.invalidContact()[pri:20, instance:com.test.HomePageTestCases@6b81ce95]" name="invalidContact" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.invalidContactmsg()[pri:21, instance:com.test.HomePageTestCases@6b81ce95]" name="invalidContactmsg" class="com.test.HomePageTestCases"/>
+        <method signature="HomePageTestCases.validContact()[pri:19, instance:com.test.HomePageTestCases@6b81ce95]" name="validContact" class="com.test.HomePageTestCases"/>
+      </group> <!-- Fourth -->
+    </groups>
+    <test started-at="2023-03-11T16:40:10 IST" name="Default test" finished-at="2023-03-11T16:41:11 IST" duration-ms="61017">
+      <class name="com.test.HomePageTestCases">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:10 IST" name="setExtent" finished-at="2023-03-11T16:40:10 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:10 IST" name="setUp" finished-at="2023-03-11T16:40:16 IST" duration-ms="5882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickSigninButton(java.lang.String,java.lang.String)[pri:1, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:16 IST" name="clickSigninButton" data-provider="dataprovider2" finished-at="2023-03-11T16:40:18 IST" duration-ms="1403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Greeshmatest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12356.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSigninButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:18 IST" name="tearDown" finished-at="2023-03-11T16:40:18 IST" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSigninButton status=SUCCESS method=HomePageTestCases.clickSigninButton(java.lang.String,java.lang.String)[pri:1, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickSigninButton(java.lang.String,java.lang.String)[pri:1, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:18 IST" name="clickSigninButton" data-provider="dataprovider2" finished-at="2023-03-11T16:40:19 IST" duration-ms="1318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sreeshma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[           ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSigninButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:19 IST" name="tearDown" finished-at="2023-03-11T16:40:20 IST" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSigninButton status=SUCCESS method=HomePageTestCases.clickSigninButton(java.lang.String,java.lang.String)[pri:1, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickSigninButton(java.lang.String,java.lang.String)[pri:1, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:20 IST" name="clickSigninButton" data-provider="dataprovider2" finished-at="2023-03-11T16:40:21 IST" duration-ms="1297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[           ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSigninButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:21 IST" name="tearDown" finished-at="2023-03-11T16:40:21 IST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSigninButton status=SUCCESS method=HomePageTestCases.clickSigninButton(java.lang.String,java.lang.String)[pri:1, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickSigninButton(java.lang.String,java.lang.String)[pri:1, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:21 IST" name="clickSigninButton" data-provider="dataprovider2" finished-at="2023-03-11T16:40:22 IST" duration-ms="1299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1562032.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSigninButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:22 IST" name="tearDown" finished-at="2023-03-11T16:40:22 IST" duration-ms="134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSigninButton status=SUCCESS method=HomePageTestCases.clickSigninButton(java.lang.String,java.lang.String)[pri:1, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickSigninButton(java.lang.String,java.lang.String)[pri:1, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:22 IST" name="clickSigninButton" data-provider="dataprovider2" finished-at="2023-03-11T16:40:24 IST" duration-ms="1297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSigninButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:24 IST" name="tearDown" finished-at="2023-03-11T16:40:24 IST" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSigninButton status=SUCCESS method=HomePageTestCases.clickSigninButton(java.lang.String,java.lang.String)[pri:1, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickSigninButton(java.lang.String,java.lang.String)[pri:1, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:24 IST" name="clickSigninButton" data-provider="dataprovider2" finished-at="2023-03-11T16:40:25 IST" duration-ms="1333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789mlopkjhuytredswertyhgbv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSigninButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:25 IST" name="tearDown" finished-at="2023-03-11T16:40:25 IST" duration-ms="128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSigninButton status=SUCCESS method=HomePageTestCases.clickSigninButton(java.lang.String,java.lang.String)[pri:1, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickSigninButton(java.lang.String,java.lang.String)[pri:1, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:25 IST" name="clickSigninButton" data-provider="dataprovider2" finished-at="2023-03-11T16:40:27 IST" duration-ms="1283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[**********]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSigninButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:27 IST" name="tearDown" finished-at="2023-03-11T16:40:27 IST" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickSigninButton status=SUCCESS method=HomePageTestCases.clickSigninButton(java.lang.String,java.lang.String)[pri:1, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickLogininButton(java.lang.String,java.lang.String)[pri:2, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:27 IST" name="clickLogininButton" data-provider="dataprovider3" finished-at="2023-03-11T16:40:28 IST" duration-ms="1305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[greesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogininButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:28 IST" name="tearDown" finished-at="2023-03-11T16:40:28 IST" duration-ms="126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickLogininButton status=SUCCESS method=HomePageTestCases.clickLogininButton(java.lang.String,java.lang.String)[pri:2, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickLogininButton(java.lang.String,java.lang.String)[pri:2, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:28 IST" name="clickLogininButton" data-provider="dataprovider3" finished-at="2023-03-11T16:40:29 IST" duration-ms="1303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[g]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogininButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:29 IST" name="tearDown" finished-at="2023-03-11T16:40:30 IST" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickLogininButton status=SUCCESS method=HomePageTestCases.clickLogininButton(java.lang.String,java.lang.String)[pri:2, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickLogininButton(java.lang.String,java.lang.String)[pri:2, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:30 IST" name="clickLogininButton" data-provider="dataprovider3" finished-at="2023-03-11T16:40:31 IST" duration-ms="1283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[g]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogininButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:31 IST" name="tearDown" finished-at="2023-03-11T16:40:31 IST" duration-ms="134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickLogininButton status=SUCCESS method=HomePageTestCases.clickLogininButton(java.lang.String,java.lang.String)[pri:2, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickLogininButton(java.lang.String,java.lang.String)[pri:2, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:31 IST" name="clickLogininButton" data-provider="dataprovider3" finished-at="2023-03-11T16:40:42 IST" duration-ms="10795" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Greeshmatest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12356.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for alert to be present (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:27633, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28416, moz:profile: C:\Users\acer\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0571241b-5c2e-4783-b07c-b05633a40f4b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:27633, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28416, moz:profile: C:\Users\acer\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0571241b-5c2e-4783-b07c-b05633a40f4b
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.utilities.Wrapper.explicitWaitAlert(Wrapper.java:29)
+at com.page.LoginPage.clickloginin(LoginPage.java:40)
+at com.test.HomePageTestCases.clickLogininButton(HomePageTestCases.java:104)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogininButton -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:42 IST" name="tearDown" finished-at="2023-03-11T16:40:42 IST" duration-ms="135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickLogininButton status=FAILURE method=HomePageTestCases.clickLogininButton(java.lang.String,java.lang.String)[pri:2, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="aboutUs()[pri:3, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:42 IST" name="aboutUs" finished-at="2023-03-11T16:40:42 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:42 IST" name="tearDown" finished-at="2023-03-11T16:40:42 IST" duration-ms="97" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aboutUs status=SUCCESS method=HomePageTestCases.aboutUs()[pri:3, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="videoplay()[pri:4, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:42 IST" name="videoplay" finished-at="2023-03-11T16:40:43 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoplay -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:43 IST" name="tearDown" finished-at="2023-03-11T16:40:43 IST" duration-ms="130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=videoplay status=SUCCESS method=HomePageTestCases.videoplay()[pri:4, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="screen()[pri:5, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:43 IST" name="screen" finished-at="2023-03-11T16:40:43 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screen -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:43 IST" name="tearDown" finished-at="2023-03-11T16:40:44 IST" duration-ms="134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=screen status=SUCCESS method=HomePageTestCases.screen()[pri:5, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="volume()[pri:6, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:44 IST" name="volume" finished-at="2023-03-11T16:40:44 IST" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- volume -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:44 IST" name="tearDown" finished-at="2023-03-11T16:40:44 IST" duration-ms="162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=volume status=SUCCESS method=HomePageTestCases.volume()[pri:6, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="videopause()[pri:7, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:44 IST" name="videopause" finished-at="2023-03-11T16:40:45 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videopause -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:45 IST" name="tearDown" finished-at="2023-03-11T16:40:45 IST" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=videopause status=SUCCESS method=HomePageTestCases.videopause()[pri:7, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickAboutClose()[pri:8, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:45 IST" name="clickAboutClose" finished-at="2023-03-11T16:40:45 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAboutClose -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:45 IST" name="tearDown" finished-at="2023-03-11T16:40:45 IST" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickAboutClose status=SUCCESS method=HomePageTestCases.clickAboutClose()[pri:8, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="selectCategory()[pri:9, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:45 IST" name="selectCategory" finished-at="2023-03-11T16:40:46 IST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCategory -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:46 IST" name="tearDown" finished-at="2023-03-11T16:40:46 IST" duration-ms="76" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectCategory status=SUCCESS method=HomePageTestCases.selectCategory()[pri:9, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="addtoCart()[pri:10, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:46 IST" name="addtoCart" finished-at="2023-03-11T16:40:56 IST" duration-ms="10297" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[text()="Samsung galaxy s6"]' (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[text()="Samsung galaxy s6"]' (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.utilities.Wrapper.explicitWait(Wrapper.java:17)
+at com.page.Categories.selectItem(Categories.java:44)
+at com.test.HomePageTestCases.addtoCart(HomePageTestCases.java:165)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[text()="Samsung galaxy s6"]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0571241b-5c2e-4783-b07c-b05633a40f4b, findElement {using=xpath, value=//*[text()="Samsung galaxy s6"]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:27633, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28416, moz:profile: C:\Users\acer\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0571241b-5c2e-4783-b07c-b05633a40f4b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtoCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:56 IST" name="tearDown" finished-at="2023-03-11T16:40:56 IST" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addtoCart status=FAILURE method=HomePageTestCases.addtoCart()[pri:10, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="searchBar()[pri:11, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:56 IST" name="searchBar" finished-at="2023-03-11T16:40:56 IST" duration-ms="20" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.page.Categories.serachAvail(Categories.java:56)
+at com.test.HomePageTestCases.searchBar(HomePageTestCases.java:172)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBar -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:56 IST" name="tearDown" finished-at="2023-03-11T16:40:56 IST" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBar status=FAILURE method=HomePageTestCases.searchBar()[pri:11, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="review()[pri:12, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:56 IST" name="review" finished-at="2023-03-11T16:40:57 IST" duration-ms="236" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.page.Categories.reviewavail(Categories.java:64)
+at com.test.HomePageTestCases.review(HomePageTestCases.java:178)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- review -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:57 IST" name="tearDown" finished-at="2023-03-11T16:40:57 IST" duration-ms="81" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=review status=FAILURE method=HomePageTestCases.review()[pri:12, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="filter()[pri:13, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:57 IST" name="filter" finished-at="2023-03-11T16:40:57 IST" duration-ms="238" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.page.Categories.reviewavail(Categories.java:64)
+at com.test.HomePageTestCases.filter(HomePageTestCases.java:184)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filter -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:57 IST" name="tearDown" finished-at="2023-03-11T16:40:57 IST" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filter status=FAILURE method=HomePageTestCases.filter()[pri:13, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="cartPage()[pri:14, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:57 IST" name="cartPage" finished-at="2023-03-11T16:40:58 IST" duration-ms="1458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:58 IST" name="tearDown" finished-at="2023-03-11T16:40:59 IST" duration-ms="51" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartPage status=SUCCESS method=HomePageTestCases.cartPage()[pri:14, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="sort()[pri:14, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:59 IST" name="sort" finished-at="2023-03-11T16:40:59 IST" duration-ms="3" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: (//a[@class="list-group-item"])[2]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0571241b-5c2e-4783-b07c-b05633a40f4b, findElement {using=xpath, value=(//a[@class="list-group-item"])[2]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:27633, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28416, moz:profile: C:\Users\acer\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0571241b-5c2e-4783-b07c-b05633a40f4b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: (//a[@class="list-group-item"])[2]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0571241b-5c2e-4783-b07c-b05633a40f4b, findElement {using=xpath, value=(//a[@class="list-group-item"])[2]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:27633, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28416, moz:profile: C:\Users\acer\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0571241b-5c2e-4783-b07c-b05633a40f4b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at com.page.Categories.reviewavail(Categories.java:63)
+at com.test.HomePageTestCases.sort(HomePageTestCases.java:190)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sort -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:59 IST" name="tearDown" finished-at="2023-03-11T16:40:59 IST" duration-ms="57" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sort status=FAILURE method=HomePageTestCases.sort()[pri:14, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickDelete()[pri:15, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:40:59 IST" name="clickDelete" finished-at="2023-03-11T16:41:09 IST" duration-ms="10306" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()=\"Delete\"]' (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[text()=\"Delete\"]' (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.utilities.Wrapper.explicitWait(Wrapper.java:17)
+at com.page.Cartpage.delete(Cartpage.java:52)
+at com.test.HomePageTestCases.clickDelete(HomePageTestCases.java:202)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.InvalidSelectorException: Given xpath expression "//a[text()=\"Delete\"]" is invalid: SyntaxError: Document.evaluate: The expression is not a legal expression
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0571241b-5c2e-4783-b07c-b05633a40f4b, findElement {using=xpath, value=//a[text()=\"Delete\"]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:27633, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28416, moz:profile: C:\Users\acer\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0571241b-5c2e-4783-b07c-b05633a40f4b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDelete -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:41:09 IST" name="tearDown" finished-at="2023-03-11T16:41:09 IST" duration-ms="48" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickDelete status=FAILURE method=HomePageTestCases.clickDelete()[pri:15, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="clickOrderPlace()[pri:16, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:41:09 IST" name="clickOrderPlace" finished-at="2023-03-11T16:41:09 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOrderPlace -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:41:09 IST" name="tearDown" finished-at="2023-03-11T16:41:09 IST" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOrderPlace status=SUCCESS method=HomePageTestCases.clickOrderPlace()[pri:16, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validTest()[pri:17, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:41:09 IST" name="validTest" finished-at="2023-03-11T16:41:09 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:41:09 IST" name="tearDown" finished-at="2023-03-11T16:41:10 IST" duration-ms="52" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validTest status=SUCCESS method=HomePageTestCases.validTest()[pri:17, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="inValidTest()[pri:18, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:41:10 IST" name="inValidTest" finished-at="2023-03-11T16:41:10 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:41:10 IST" name="tearDown" finished-at="2023-03-11T16:41:10 IST" duration-ms="46" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inValidTest status=SUCCESS method=HomePageTestCases.inValidTest()[pri:18, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validContact()[pri:19, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:41:10 IST" name="validContact" finished-at="2023-03-11T16:41:10 IST" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <a class="nav-link" href="#"> is not clickable at point (754,28) because another element <div id="orderModal" class="modal fade show"> obscures it
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0571241b-5c2e-4783-b07c-b05633a40f4b, clickElement {id=a50e722a-9d5d-4af1-bf9d-98f959464ebd}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:27633, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28416, moz:profile: C:\Users\acer\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0571241b-5c2e-4783-b07c-b05633a40f4b)] -> xpath: //a[text()="Contact"]]
+Session ID: 0571241b-5c2e-4783-b07c-b05633a40f4b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a class="nav-link" href="#"> is not clickable at point (754,28) because another element <div id="orderModal" class="modal fade show"> obscures it
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0571241b-5c2e-4783-b07c-b05633a40f4b, clickElement {id=a50e722a-9d5d-4af1-bf9d-98f959464ebd}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:27633, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28416, moz:profile: C:\Users\acer\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0571241b-5c2e-4783-b07c-b05633a40f4b)] -> xpath: //a[text()="Contact"]]
+Session ID: 0571241b-5c2e-4783-b07c-b05633a40f4b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at com.page.Contact.clickContact(Contact.java:35)
+at com.test.HomePageTestCases.validContact(HomePageTestCases.java:231)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validContact -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:41:10 IST" name="tearDown" finished-at="2023-03-11T16:41:10 IST" duration-ms="49" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validContact status=FAILURE method=HomePageTestCases.validContact()[pri:19, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="invalidContact()[pri:20, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:41:10 IST" name="invalidContact" finished-at="2023-03-11T16:41:10 IST" duration-ms="11" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <a class="nav-link" href="#"> is not clickable at point (754,28) because another element <div id="orderModal" class="modal fade show"> obscures it
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0571241b-5c2e-4783-b07c-b05633a40f4b, clickElement {id=a50e722a-9d5d-4af1-bf9d-98f959464ebd}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:27633, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28416, moz:profile: C:\Users\acer\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0571241b-5c2e-4783-b07c-b05633a40f4b)] -> xpath: //a[text()="Contact"]]
+Session ID: 0571241b-5c2e-4783-b07c-b05633a40f4b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a class="nav-link" href="#"> is not clickable at point (754,28) because another element <div id="orderModal" class="modal fade show"> obscures it
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0571241b-5c2e-4783-b07c-b05633a40f4b, clickElement {id=a50e722a-9d5d-4af1-bf9d-98f959464ebd}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:27633, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28416, moz:profile: C:\Users\acer\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0571241b-5c2e-4783-b07c-b05633a40f4b)] -> xpath: //a[text()="Contact"]]
+Session ID: 0571241b-5c2e-4783-b07c-b05633a40f4b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at com.page.Contact.clickContact(Contact.java:35)
+at com.test.HomePageTestCases.invalidContact(HomePageTestCases.java:238)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidContact -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:41:10 IST" name="tearDown" finished-at="2023-03-11T16:41:10 IST" duration-ms="59" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidContact status=FAILURE method=HomePageTestCases.invalidContact()[pri:20, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="invalidContactmsg()[pri:21, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:41:10 IST" name="invalidContactmsg" finished-at="2023-03-11T16:41:10 IST" duration-ms="5" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <a class="nav-link" href="#"> is not clickable at point (754,28) because another element <div id="orderModal" class="modal fade show"> obscures it
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0571241b-5c2e-4783-b07c-b05633a40f4b, clickElement {id=a50e722a-9d5d-4af1-bf9d-98f959464ebd}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:27633, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28416, moz:profile: C:\Users\acer\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0571241b-5c2e-4783-b07c-b05633a40f4b)] -> xpath: //a[text()="Contact"]]
+Session ID: 0571241b-5c2e-4783-b07c-b05633a40f4b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a class="nav-link" href="#"> is not clickable at point (754,28) because another element <div id="orderModal" class="modal fade show"> obscures it
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0571241b-5c2e-4783-b07c-b05633a40f4b, clickElement {id=a50e722a-9d5d-4af1-bf9d-98f959464ebd}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 110.0.1, moz:accessibilityChecks: false, moz:buildID: 20230227191043, moz:debuggerAddress: 127.0.0.1:27633, moz:geckodriverVersion: 0.32.2, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28416, moz:profile: C:\Users\acer\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (0571241b-5c2e-4783-b07c-b05633a40f4b)] -> xpath: //a[text()="Contact"]]
+Session ID: 0571241b-5c2e-4783-b07c-b05633a40f4b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at com.page.Contact.clickContact(Contact.java:35)
+at com.test.HomePageTestCases.invalidContactmsg(HomePageTestCases.java:245)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidContactmsg -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:41:10 IST" name="tearDown" finished-at="2023-03-11T16:41:10 IST" duration-ms="49" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidContactmsg status=FAILURE method=HomePageTestCases.invalidContactmsg()[pri:21, instance:com.test.HomePageTestCases@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.test.HomePageTestCases@6b81ce95]" started-at="2023-03-11T16:41:10 IST" name="endReport" finished-at="2023-03-11T16:41:11 IST" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.test.HomePageTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

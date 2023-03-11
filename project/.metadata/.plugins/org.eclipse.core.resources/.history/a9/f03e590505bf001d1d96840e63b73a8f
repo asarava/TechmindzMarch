@@ -1,0 +1,19 @@
+package com.page;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.testbase.TestBase;
+import com.utilities.Wrapper;
+
+public class Categories  extends TestBase{
+	
+	Wrapper wrobj = new Wrapper();
+	@FindBy(xpath = "(//button[@class=\"btn btn-primary\"])[3]")
+	WebElement pPhones;
+	@FindBy(xpath = "(//button[@class=\"btn btn-primary\"])[3]")
+	WebElement pLaptops;
+	@FindBy(xpath = "(//button[@class=\"btn btn-primary\"])[3]")
+	WebElement pScreen;
+
+}

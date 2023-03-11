@@ -1,0 +1,61 @@
+package com.page;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
+import com.testbase.TestBase;
+import com.utilities.Wrapper;
+
+public class Cartpage extends TestBase {
+
+	Wrapper wrobj = new Wrapper();
+	
+	
+	@FindBy(id = "cartur")
+	WebElement pCart;
+	@FindBy(xpath = "//a[text()=\\\"Delete\\\"]")
+	WebElement pDelete;
+	@FindBy(xpath = "//button[text()=\"Place Order\"]")
+	WebElement pOrderplace;
+	
+	@FindBy(id = "cartur")
+	WebElement pName;
+	@FindBy(id = "cartur")
+	WebElement pCountry;
+	@FindBy(id = "cartur")
+	WebElement pCity;
+	@FindBy(id = "cartur")
+	WebElement CreditCard;
+	@FindBy(id = "cartur")
+	WebElement pMonth;
+	@FindBy(id = "cartur")
+	WebElement pYear;
+	public Cartpage() {
+		PageFactory.initElements(driver, this);
+	}
+	
+	
+	
+	public void cart() {
+		pCart.click();
+	}
+	
+	public void delete() {
+		wrobj.explicitWait(driver, pDelete);
+		pDelete.click();
+	}
+	
+	public void orderPlace() {
+		pOrderplace.click();
+	}
+	
+	public void enterValidata(String Name,String Country,String City,String	CreditCard,String Month, String	year) {
+		
+		
+	}
+
+	
+	
+}
