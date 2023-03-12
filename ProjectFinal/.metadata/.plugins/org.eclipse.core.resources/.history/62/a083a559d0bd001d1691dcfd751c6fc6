@@ -1,0 +1,57 @@
+package com.base;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.time.Duration;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+
+import com.pages.LoginPage;
+import com.util.BrowserFactory;
+import com.util.TestUtil;
+
+
+public class TestBase {
+	public static WebDriver driver;
+	public static Properties ConfigProp;
+
+	public TestBase() {
+		ConfigProp = new Properties();
+		
+		try {
+			 FileInputStream readConfiguration = new FileInputStream(
+					"C:\\dona\\AutomationWorkspace\\ProjectFinal\\Final_Project\\src\\main\\java\\com\\config\\GlobalConfig");
+		
+			ConfigProp.load(readConfiguration);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	@SuppressWarnings("deprecation")
+	public static void Initialization() {
+		String browserName = ConfigProp.getProperty("browser");
+		if (browserName.equalsIgnoreCase("chrome")) {
+			driver = new ChromeDriver();
+		} else if (browserName.equalsIgnoreCase("firefox")) {
+			driver = new FirefoxDriver();
+		}
+		driver.manage().window().maximize();
+		driver.get(ConfigProp.getProperty("URL"));
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		
+
+	}
+}

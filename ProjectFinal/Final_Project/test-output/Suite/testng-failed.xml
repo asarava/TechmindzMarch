@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.test.ProductInfoPageTest">
+        <methods>
+          <include name="selectPhone"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="selectLappy"/>
+          <include name="selectMonitor"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- com.test.ProductInfoPageTest -->
+      <class name="com.test.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="start"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.test.LoginPageTest -->
+      <class name="com.test.SignUpPageTest">
+        <methods>
+          <include name="registerUser"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- com.test.SignUpPageTest -->
+      <class name="com.test.PaymentInfoPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyPurchaseWithoutInfo"/>
+          <include name="tearDown"/>
+          <include name="verifyPurchaseWithInfo"/>
+        </methods>
+      </class> <!-- com.test.PaymentInfoPageTest -->
+      <class name="com.test.CartPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="set"/>
+          <include name="validateDeleteItem"/>
+          <include name="goToCart"/>
+          <include name="valiadteTotalProductPrice"/>
+        </methods>
+      </class> <!-- com.test.CartPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
