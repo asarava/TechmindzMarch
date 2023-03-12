@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="username" value="Nimi"></parameter>
+	  <parameter name="password" value="nimi123"></parameter>
+	  <parameter name="uname" value="Nimi"></parameter>
+	  <parameter name="pword" value="Nimi"></parameter>
+	  <parameter name="loginName" value="Nimi"></parameter>
+	  <parameter name="loginPword" value="Nimi123"></parameter>
+	  <classes>
+      <class name="com.test.HomePageTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

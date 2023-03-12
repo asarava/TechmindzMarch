@@ -1,0 +1,142 @@
+package com.project;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
+import com.testbase.TestBase;
+import com.utilities.Wrapper;
+
+public class HomePage extends TestBase {
+	Wrapper wrapobject=new Wrapper();
+	@FindBy(id="signin2") 	
+	WebElement pSignup;
+	@FindBy(xpath="//input[@id='sign-username']") WebElement pSignInUserName;
+	@FindBy(xpath="//input[@id='sign-password']") WebElement pSignInUserPassword;
+	@FindBy(xpath="//button[@onclick='register()']") WebElement pSignupButton;
+	@FindBy(xpath="(//button[@data-dismiss='modal'])[4]") WebElement pSignupClose;
+	@FindBy(id="login2") 
+	WebElement pLogin;
+	@FindBy(xpath="//input[@id='loginusername']") WebElement pLogInUserName;
+	@FindBy(xpath="//input[@id='loginpassword']") WebElement pLogInPassword;
+	@FindBy(xpath="//button[@onclick='logIn()']") WebElement pLogInButton;
+	@FindBy(id="logout2") WebElement pLogOut;
+	@FindBy(xpath="(//button[@data-dismiss='modal'])[6]") WebElement pLoginClose;
+	@FindBy(xpath="//a[@id='nameofuser']") WebElement pText;
+	@FindBy(xpath="(//a[@data-toggle='modal'])[1]") WebElement pContactMenu;
+	@FindBy(xpath="//button[@onclick='send()']") WebElement pSend;
+	@FindBy(xpath="//input[@id='recipient-email']") WebElement pContactemail;
+	@FindBy(xpath="//input[@id='recipient-name']") WebElement pContactName;
+	@FindBy(xpath="//textarea[@id='message-text']") WebElement pTextArea;
+	@FindBy(xpath="(//a[@data-toggle='modal'])[2]") WebElement pAboutUs;
+	@FindBy(xpath="(//button[@data-dismiss='modal'])[8]") WebElement pAboutUsClose;
+	@FindBy(xpath="//button[@class='vjs-big-play-button']") WebElement pPlayButton;
+	@FindBy(xpath="//button[@class='vjs-play-control vjs-control vjs-button vjs-playing']") WebElement pPauseButton;
+	String message="Sign up successful.";
+	@FindBy(xpath="(//a[@class='nav-link'])[1]") WebElement pHomeLink;   
+	@FindBy(xpath="(//a[@class='nav-link'])[4]") WebElement pCart;  
+	@FindBy(xpath="(//a[@id='itemc'])[1]") WebElement pPhone;
+	@FindBy(xpath="(//a[@id='itemc'])[2]") WebElement pLaptop;
+	@FindBy(xpath="(//a[@id='itemc'])[3]") WebElement pMonitor;
+	@FindBy(xpath="//a[contains(text(),'Iphone 6 32gb')]") WebElement pIphone;
+	@FindBy(xpath="//a[contains(text(),'MacBook')]") WebElement pMacBook;
+	@FindBy(xpath="//a[contains(text(),'Apple monitor 24')]") WebElement pAppleMonitor;
+	@FindBy(xpath="//a[contains(text(),'Add to cart')]") WebElement pAddtoCart;
+	public HomePage() {
+		PageFactory.initElements(driver, this);
+		}
+
+		
+   public void checkSignup(String Username,String Password) throws InterruptedException {
+	  	
+	    wrapobject.waitDriver(pSignup, driver);
+		pSignup.click();
+		wrapobject.waitDriver(pSignInUserName, driver);
+		pSignInUserName.clear();
+	    pSignInUserName.sendKeys(Username);
+	    pSignInUserPassword.clear();
+		pSignInUserPassword.sendKeys(Password);
+		pSignupButton.click();
+		wrapobject.waitDriverAlert(driver);
+		wrapobject.alertText(driver, message,pSignupClose);
+		 
+		}
+   public void clickCloseButton() {
+		wrapobject.waitDriver(pSignupClose, driver);
+		pSignupClose.click();
+		pSignInUserName.clear();
+		pSignInUserPassword.clear();
+		}
+  
+  public void passwordLengthcheck(String Username,String Password) {
+	    wrapobject.waitDriver(pSignup, driver);
+		pSignup.click();
+		wrapobject.waitDriver(pSignInUserName, driver);
+	    pSignInUserName.sendKeys(Username);
+		pSignInUserPassword.sendKeys(Password);
+		wrapobject.clearData(pSignupClose, pSignInUserName, pSignInUserPassword);
+	    }
+  public void clickLogIn(String Username,String Password) {
+	    wrapobject.waitDriver(pLogin, driver);
+	    pLogin.click();
+	    wrapobject.waitDriver(pLogInUserName, driver);
+	    pLogInUserName.sendKeys(Username);
+	    pLogInPassword.sendKeys(Password);
+	    pLogInButton.click();
+	    wrapobject.waitDriver(pText, driver);
+	    System.out.println(pText.getText());
+	    pLogOut.click();
+	  }
+  public void logInValidations(String Username,String Password) throws InterruptedException {
+	    wrapobject.waitDriver(pLogin, driver);
+	    pLogin.click();
+		wrapobject.waitDriver(pLogInUserName, driver);
+		pLogInUserName.clear();
+		pLogInUserName.sendKeys(Username);
+		pLogInPassword.clear();
+		pLogInPassword.sendKeys(Password);
+		pLogInButton.click();
+		wrapobject.waitDriverAlert(driver);
+		wrapobject.alertHandle(driver);
+		pLoginClose.click();
+	    }	 
+  public void navigations() {
+	    Assert.assertTrue(pHomeLink.isDisplayed());
+        Assert.assertTrue(pContactMenu.isDisplayed());
+        Assert.assertTrue(pAboutUs.isDisplayed());
+        Assert.assertTrue(pCart.isDisplayed());
+        }
+  public void categorySelect() {
+	    wrapobject.waitDriver(pPhone, driver);
+	    pPhone.click();
+	    wrapobject.waitDriver(pIphone, driver);
+	    Assert.assertTrue(pIphone.isDisplayed());
+	    pLaptop.click();
+	    wrapobject.waitDriver(pMacBook, driver);
+	    Assert.assertTrue(pMacBook.isDisplayed());
+	    pMonitor.click();
+	    wrapobject.waitDriver(pAppleMonitor, driver);
+	    Assert.assertTrue(pAppleMonitor.isDisplayed());
+	    pAppleMonitor.click();
+	    wrapobject.waitDriver(pAddtoCart, driver);
+	    pAddtoCart.click();
+	    wrapobject.alertHandle(driver);
+	    }
+  public void addToCart() {
+	    pHomeLink.click();
+	    wrapobject.waitDriver(pPhone, driver);
+	    pPhone.click();
+	    wrapobject.waitDriver(pIphone, driver);
+	    pIphone.click();  
+	    wrapobject.waitDriver(pAddtoCart, driver);
+	    pAddtoCart.click();
+	    wrapobject.alertHandle(driver);
+  }
+}		
+  
+
+

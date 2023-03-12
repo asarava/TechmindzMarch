@@ -1,0 +1,83 @@
+package com.utilities;
+
+
+import java.time.Duration;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+  
+public class Wrapper {
+	public void waitDriver(WebElement pElement,WebDriver driver){
+		WebDriverWait wait=new WebDriverWait(driver,2000);
+		wait.until(ExpectedConditions.elementToBeClickable(pElement));
+		}
+	public String alertText(WebDriver driver) throws InterruptedException {
+		Alert alert=driver.switchTo().alert();
+		String alertText=alert.getText();
+		alert.accept();
+		return alertText;
+				
+		}
+	public void closePopUp(WebElement button) {
+		button.click();
+		
+	}
+	
+	public void waitDriverAlert(WebDriver driver) {
+		WebDriverWait wait=new WebDriverWait(driver,50);
+		wait.until(ExpectedConditions.alertIsPresent());
+		}
+	public  String alertHandle(WebDriver driver) {
+		Alert alert=driver.switchTo().alert();
+		String alertText=alert.getText();
+		alert.accept();
+		System.out.println(alertText);	
+		return alertText;
+		}
+    public boolean passwordLengthCheck(String pPassword) {
+    	boolean flag=true;
+    	int len=pPassword.length();
+        if((len>6) && (len<13)) {
+        	System.out.println("Password length is matching length criteria");
+      	    flag=true;
+      	    }else {
+      	    flag=false;	
+      	    }
+        return flag;
+         }
+           
+    public void contactMessageLength(String contactText) {
+        int len=contactText.length();
+         if((len>100)) {
+            System.out.println("message should not exceed 100 words.");
+          	Assert.assertTrue(true, "message should not exceed 100 words.");
+            }
+         }
+    public void getPageSource(WebDriver driver,String pValue) {
+    	 String source=driver.getPageSource();
+    	   System.out.println(source);
+    	 if(source.contains(pValue)) {
+    		 Assert.assertTrue(true,pValue+" is available");
+    	    }else {
+    	    	Assert.assertTrue(false,pValue+" is not available");
+    	    }
+       } 
+    	 
+    public void dragDrop(WebDriver driver,WebElement pValue) {
+    	Actions builder =new Actions(driver);
+    	Action dragDropElement=builder.dragAndDropBy(pValue, 10, 10).build();
+    	dragDropElement.perform();
+        }
+     }
+	
+    	
+    	
+    	
+    
+	

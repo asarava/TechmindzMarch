@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="loginName1" value="Nimi"/>
+    <parameter name="password" value="nimi123"/>
+    <parameter name="loginPword" value="Nimi123"/>
+    <parameter name="uname" value="Nimi"/>
+    <parameter name="loginName" value="Nimi"/>
+    <parameter name="pword" value="Nimi"/>
+    <parameter name="loginPword1" value="Nimi"/>
+    <parameter name="username" value="Nimi"/>
+    <classes>
+      <class name="com.test.HomePageTestCases">
+        <methods>
+          <include name="endReport"/>
+          <include name="setUp"/>
+          <include name="invalidContactsMenuCheck" invocation-numbers="0 1 2"/>
+          <include name="setExtent"/>
+          <include name="checkOptionPresent" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+          <include name="contactTextCheck" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.HomePageTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

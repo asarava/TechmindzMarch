@@ -1,1 +1,5 @@
-Hi
+1. LoginValidation -  priority=13 contains  3  testcases(TC-129,TC-131,TC-132 valid username and invalid password,invalid username and valid 								      	password,invalid user name and invalid password)
+2.SignUp  validations -priority=11 contains 3 test cases (TC-121,TC-122,TC-123  entering password only,entering user only,existing username 										                  and password)
+3.checkOptionPresent - priority=22 contains 3 testcases (TC-503,TC-558,TC-559 to check if search,filter and SortBy option available)
+4. clickAudio  -       priority=9 contains  6 testcases (TC-332-check about us page access,TC-336-play button, TC-337-pause button,TC-338-										Volume settings,TC-340-full screen and TC-346-close functionality)
+5.placeOrderCheck -    priority=5 contains  2 test cases (TC-349-place order  click,TC-351-order submit with valid details)
