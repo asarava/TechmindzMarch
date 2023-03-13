@@ -1,0 +1,32 @@
+package com.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.TestBase.TestBase;
+import com.Utilities.Wrapper;
+
+public class AboutusPage extends TestBase {
+	Wrapper wrrobj = new Wrapper();
+
+	public AboutusPage() {
+		PageFactory.initElements(driver, this);
+	}
+
+	@FindBy(xpath = "//a[@data-target='#videoModal']")
+	WebElement pAboutUs;
+
+	@FindBy(xpath = "//button[@title='Play Video']")
+	WebElement pPlayvideo;
+
+	@FindBy(xpath = "//button[@title='Pause']")
+	WebElement pPause;
+
+	@FindBy(xpath = "//button[@title='Pause']")
+	WebElement pUnmute;
+
+	@FindBy(xpath = "//button[@title='Mute']")
+	WebElement pMute;
+
+}

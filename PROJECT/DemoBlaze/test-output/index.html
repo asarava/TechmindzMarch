@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\HP\Desktop\PROJECT\DemoBlaze\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 7 failed,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnDelete">ClickOnDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnFiltersAndSortBy">ClickOnFiltersAndSortBy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnProductReview">ClickOnProductReview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnSearchBar">ClickOnSearchBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickonInvalidData(65565.0, 67787.0, 897798.0, 8.9789789E7, 9889.0, knjhjh)">ClickonInvalidData(65565.0, 67787.0, 897798.0, 8.9789789E7, 9889.0, knjhjh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="clickOnContactWithEmptyData">clickOnContactWithEmptyData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="clickOnInvalidData(anakha@23.com, 4521.0, &amp;*&amp;^^&amp;*)">clickOnInvalidData(anakha@23.com, 4521.0, &*&^^&*)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickLogValidUsernameandValidPassword(Jyothika, 254312.0)">ClickLogValidUsernameandValidPassword(Jyothika, 254312.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickLoginInvalidUsernameandValidPassword(kathrinaa, 89745.0)">ClickLoginInvalidUsernameandValidPassword(kathrinaa, 89745.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickLoginValidUsernameandInvalidPassword(Charulatha S, 1111.0)">ClickLoginValidUsernameandInvalidPassword(Charulatha S, 1111.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnAboutUsClose">ClickOnAboutUsClose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnAddtocart">ClickOnAddtocart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnEmptyData">ClickOnEmptyData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnLaptops">ClickOnLaptops</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnMonitors">ClickOnMonitors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnPause">ClickOnPause</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnPhones">ClickOnPhones</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnPlayVideo">ClickOnPlayVideo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnScreensize">ClickOnScreensize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnValidData(Charulatha, India, Kollam, 5678.0, March, 2023.0)">ClickOnValidData(Charulatha, India, Kollam, 5678.0, March, 2023.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickOnVolumebutton">ClickOnVolumebutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickSignEmptUsernameandPassword">ClickSignEmptUsernameandPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickonSigninAlreadyexsitedUsernameandPassword(Anakha, Test123)">ClickonSigninAlreadyexsitedUsernameandPassword(Anakha, Test123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClickonsignValidUsernameandPassword(Supriya, 54762.0)">ClickonsignValidUsernameandPassword(Supriya, 54762.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClicksignPasswordOnly">ClicksignPasswordOnly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClicksignUsernameOnly">ClicksignUsernameOnly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="ClikOnCart">ClikOnCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.PageTestCases" class="method navigator-link" hash-for-method="clickOnContactWithValidData(anakha@23.com, Anakha Sabu, How are you ?)">clickOnContactWithValidData(anakha@23.com, Anakha Sabu, How are you ?)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.test.PageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnDelete">
+                  </a> <!-- ClickOnDelete -->
+                  <span class="method-name">ClickOnDelete</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: (//a[text()=&apos;Delete&apos;])[1]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.Utilities.Wrapper.explictWaitElementToBeClickable(Wrapper.java:17)
+	at com.pages.CartPage.DeleteFromCart(CartPage.java:63)
+	at com.test.PageTestCases.ClickOnDelete(PageTestCases.java:249)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[text()=&apos;Delete&apos;])[1]&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ffc6be4defe7f58654b31a48e77d9031, findElement {using=xpath, value=(//a[text()=&apos;Delete&apos;])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:13252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:13252/devtoo..., se:cdpVersion: 110.0.5481.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffc6be4defe7f58654b31a48e77d9031
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 29 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnFiltersAndSortBy">
+                  </a> <!-- ClickOnFiltersAndSortBy -->
+                  <span class="method-name">ClickOnFiltersAndSortBy</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //*[text()=&apos;Filters&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.Utilities.Wrapper.explictWaitElementToBeClickable(Wrapper.java:17)
+	at com.pages.HomePage.ClickFiltersAndSortBy(HomePage.java:117)
+	at com.test.PageTestCases.ClickOnFiltersAndSortBy(PageTestCases.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;Filters&apos;]&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ffc6be4defe7f58654b31a48e77d9031, findElement {using=xpath, value=//*[text()=&apos;Filters&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:13252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:13252/devtoo..., se:cdpVersion: 110.0.5481.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffc6be4defe7f58654b31a48e77d9031
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 29 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnProductReview">
+                  </a> <!-- ClickOnProductReview -->
+                  <span class="method-name">ClickOnProductReview</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //a[text()=&apos;Review&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.Utilities.Wrapper.explictWaitElementToBeClickable(Wrapper.java:17)
+	at com.pages.HomePage.ClickReview(HomePage.java:108)
+	at com.test.PageTestCases.ClickOnProductReview(PageTestCases.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Review&apos;]&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ffc6be4defe7f58654b31a48e77d9031, findElement {using=xpath, value=//a[text()=&apos;Review&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:13252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:13252/devtoo..., se:cdpVersion: 110.0.5481.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffc6be4defe7f58654b31a48e77d9031
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 29 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnSearchBar">
+                  </a> <!-- ClickOnSearchBar -->
+                  <span class="method-name">ClickOnSearchBar</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Search&apos;]&quot;}
+  (Session info: chrome=110.0.5481.104)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ffc6be4defe7f58654b31a48e77d9031, findElement {using=xpath, value=//a[text()=&apos;Search&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:13252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:13252/devtoo..., se:cdpVersion: 110.0.5481.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffc6be4defe7f58654b31a48e77d9031
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at com.pages.HomePage.ClickSearch(HomePage.java:99)
+	at com.test.PageTestCases.ClickOnSearchBar(PageTestCases.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickonInvalidData(65565.0, 67787.0, 897798.0, 8.9789789E7, 9889.0, knjhjh)">
+                  </a> <!-- ClickonInvalidData(65565.0, 67787.0, 897798.0, 8.9789789E7, 9889.0, knjhjh) -->
+                  <span class="method-name">ClickonInvalidData</span>
+                  <span class="parameters">(65565.0, 67787.0, 897798.0, 8.9789789E7, 9889.0, knjhjh)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=110.0.5481.104)
+Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ffc6be4defe7f58654b31a48e77d9031, clearElement {id=84c1de7d-f75b-4dec-8b32-bc894976c2f3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.104, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:13252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:13252/devtoo..., se:cdpVersion: 110.0.5481.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ffc6be4defe7f58654b31a48e77d9031)] -&gt; id: month]
+Session ID: ffc6be4defe7f58654b31a48e77d9031
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:132)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.clear(Unknown Source)
+	at com.Utilities.Wrapper.ClearValues(Wrapper.java:67)
+	at com.pages.CartPage.orderwithInvaliddata(CartPage.java:99)
+	at com.test.PageTestCases.ClickonInvalidData(PageTestCases.java:271)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnContactWithEmptyData">
+                  </a> <!-- clickOnContactWithEmptyData -->
+                  <span class="method-name">clickOnContactWithEmptyData</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [false] but found [false]
+	at com.test.PageTestCases.clickOnContactWithEmptyData(PageTestCases.java:131)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnInvalidData(anakha@23.com, 4521.0, &amp;*&amp;^^&amp;*)">
+                  </a> <!-- clickOnInvalidData(anakha@23.com, 4521.0, &*&^^&*) -->
+                  <span class="method-name">clickOnInvalidData</span>
+                  <span class="parameters">(anakha@23.com, 4521.0, &*&^^&*)</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [false] but found [false]
+	at com.test.PageTestCases.clickOnInvalidData(PageTestCases.java:145)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.PageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickLogValidUsernameandValidPassword(Jyothika, 254312.0)">
+                  </a> <!-- ClickLogValidUsernameandValidPassword(Jyothika, 254312.0) -->
+                  <span class="method-name">ClickLogValidUsernameandValidPassword</span>
+                  <span class="parameters">(Jyothika, 254312.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickLoginInvalidUsernameandValidPassword(kathrinaa, 89745.0)">
+                  </a> <!-- ClickLoginInvalidUsernameandValidPassword(kathrinaa, 89745.0) -->
+                  <span class="method-name">ClickLoginInvalidUsernameandValidPassword</span>
+                  <span class="parameters">(kathrinaa, 89745.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickLoginValidUsernameandInvalidPassword(Charulatha S, 1111.0)">
+                  </a> <!-- ClickLoginValidUsernameandInvalidPassword(Charulatha S, 1111.0) -->
+                  <span class="method-name">ClickLoginValidUsernameandInvalidPassword</span>
+                  <span class="parameters">(Charulatha S, 1111.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnAboutUsClose">
+                  </a> <!-- ClickOnAboutUsClose -->
+                  <span class="method-name">ClickOnAboutUsClose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnAddtocart">
+                  </a> <!-- ClickOnAddtocart -->
+                  <span class="method-name">ClickOnAddtocart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnEmptyData">
+                  </a> <!-- ClickOnEmptyData -->
+                  <span class="method-name">ClickOnEmptyData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnLaptops">
+                  </a> <!-- ClickOnLaptops -->
+                  <span class="method-name">ClickOnLaptops</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnMonitors">
+                  </a> <!-- ClickOnMonitors -->
+                  <span class="method-name">ClickOnMonitors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnPause">
+                  </a> <!-- ClickOnPause -->
+                  <span class="method-name">ClickOnPause</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnPhones">
+                  </a> <!-- ClickOnPhones -->
+                  <span class="method-name">ClickOnPhones</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnPlayVideo">
+                  </a> <!-- ClickOnPlayVideo -->
+                  <span class="method-name">ClickOnPlayVideo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnScreensize">
+                  </a> <!-- ClickOnScreensize -->
+                  <span class="method-name">ClickOnScreensize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnValidData(Charulatha, India, Kollam, 5678.0, March, 2023.0)">
+                  </a> <!-- ClickOnValidData(Charulatha, India, Kollam, 5678.0, March, 2023.0) -->
+                  <span class="method-name">ClickOnValidData</span>
+                  <span class="parameters">(Charulatha, India, Kollam, 5678.0, March, 2023.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnVolumebutton">
+                  </a> <!-- ClickOnVolumebutton -->
+                  <span class="method-name">ClickOnVolumebutton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickSignEmptUsernameandPassword">
+                  </a> <!-- ClickSignEmptUsernameandPassword -->
+                  <span class="method-name">ClickSignEmptUsernameandPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickonSigninAlreadyexsitedUsernameandPassword(Anakha, Test123)">
+                  </a> <!-- ClickonSigninAlreadyexsitedUsernameandPassword(Anakha, Test123) -->
+                  <span class="method-name">ClickonSigninAlreadyexsitedUsernameandPassword</span>
+                  <span class="parameters">(Anakha, Test123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickonsignValidUsernameandPassword(Supriya, 54762.0)">
+                  </a> <!-- ClickonsignValidUsernameandPassword(Supriya, 54762.0) -->
+                  <span class="method-name">ClickonsignValidUsernameandPassword</span>
+                  <span class="parameters">(Supriya, 54762.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClicksignPasswordOnly">
+                  </a> <!-- ClicksignPasswordOnly -->
+                  <span class="method-name">ClicksignPasswordOnly</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClicksignUsernameOnly">
+                  </a> <!-- ClicksignUsernameOnly -->
+                  <span class="method-name">ClicksignUsernameOnly</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClikOnCart">
+                  </a> <!-- ClikOnCart -->
+                  <span class="method-name">ClikOnCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnContactWithValidData(anakha@23.com, Anakha Sabu, How are you ?)">
+                  </a> <!-- clickOnContactWithValidData(anakha@23.com, Anakha Sabu, How are you ?) -->
+                  <span class="method-name">clickOnContactWithValidData</span>
+                  <span class="parameters">(anakha@23.com, Anakha Sabu, How are you ?)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HP\Desktop\PROJECT\DemoBlaze\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;&quot; value=&quot;&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.PageTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ClickOnFiltersAndSortBy')
+data.setCell(0, 2, 'com.test.PageTestCases')
+data.setCell(0, 3, 12817);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ClickOnProductReview')
+data.setCell(1, 2, 'com.test.PageTestCases')
+data.setCell(1, 3, 10816);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ClickOnDelete')
+data.setCell(2, 2, 'com.test.PageTestCases')
+data.setCell(2, 3, 10421);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ClickOnMonitors')
+data.setCell(3, 2, 'com.test.PageTestCases')
+data.setCell(3, 3, 9338);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ClickOnAddtocart')
+data.setCell(4, 2, 'com.test.PageTestCases')
+data.setCell(4, 3, 5510);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ClikOnCart')
+data.setCell(5, 2, 'com.test.PageTestCases')
+data.setCell(5, 3, 3402);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ClickLoginValidUsernameandInvalidPassword')
+data.setCell(6, 2, 'com.test.PageTestCases')
+data.setCell(6, 3, 3217);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ClickOnValidData')
+data.setCell(7, 2, 'com.test.PageTestCases')
+data.setCell(7, 3, 2658);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ClickonsignValidUsernameandPassword')
+data.setCell(8, 2, 'com.test.PageTestCases')
+data.setCell(8, 3, 2144);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ClickonInvalidData')
+data.setCell(9, 2, 'com.test.PageTestCases')
+data.setCell(9, 3, 1579);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ClickLoginInvalidUsernameandValidPassword')
+data.setCell(10, 2, 'com.test.PageTestCases')
+data.setCell(10, 3, 1514);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ClickonSigninAlreadyexsitedUsernameandPassword')
+data.setCell(11, 2, 'com.test.PageTestCases')
+data.setCell(11, 3, 1482);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'clickOnContactWithValidData')
+data.setCell(12, 2, 'com.test.PageTestCases')
+data.setCell(12, 3, 1059);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ClickLogValidUsernameandValidPassword')
+data.setCell(13, 2, 'com.test.PageTestCases')
+data.setCell(13, 3, 986);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'clickOnInvalidData')
+data.setCell(14, 2, 'com.test.PageTestCases')
+data.setCell(14, 3, 943);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ClicksignUsernameOnly')
+data.setCell(15, 2, 'com.test.PageTestCases')
+data.setCell(15, 3, 935);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ClickOnPlayVideo')
+data.setCell(16, 2, 'com.test.PageTestCases')
+data.setCell(16, 3, 877);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ClicksignPasswordOnly')
+data.setCell(17, 2, 'com.test.PageTestCases')
+data.setCell(17, 3, 849);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'ClickOnEmptyData')
+data.setCell(18, 2, 'com.test.PageTestCases')
+data.setCell(18, 3, 793);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ClickSignEmptUsernameandPassword')
+data.setCell(19, 2, 'com.test.PageTestCases')
+data.setCell(19, 3, 766);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'clickOnContactWithEmptyData')
+data.setCell(20, 2, 'com.test.PageTestCases')
+data.setCell(20, 3, 699);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ClickOnScreensize')
+data.setCell(21, 2, 'com.test.PageTestCases')
+data.setCell(21, 3, 384);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'ClickOnSearchBar')
+data.setCell(22, 2, 'com.test.PageTestCases')
+data.setCell(22, 3, 331);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'ClickOnVolumebutton')
+data.setCell(23, 2, 'com.test.PageTestCases')
+data.setCell(23, 3, 279);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'ClickOnAboutUsClose')
+data.setCell(24, 2, 'com.test.PageTestCases')
+data.setCell(24, 3, 224);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'ClickOnPhones')
+data.setCell(25, 2, 'com.test.PageTestCases')
+data.setCell(25, 3, 165);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'ClickOnPause')
+data.setCell(26, 2, 'com.test.PageTestCases')
+data.setCell(26, 3, 155);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'ClickOnLaptops')
+data.setCell(27, 2, 'com.test.PageTestCases')
+data.setCell(27, 3, 153);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.PageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setExtent</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">174 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnPhones</span>
+                <span class="method-start">6053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnPhones status=SUCCESS method=PageTestCases.ClickOnPhones()[pri:1, instance:c...)</span>
+                <span class="method-start">6221 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnLaptops</span>
+                <span class="method-start">6580 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnLaptops status=SUCCESS method=PageTestCases.ClickOnLaptops()[pri:2, instance...)</span>
+                <span class="method-start">6733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnMonitors</span>
+                <span class="method-start">7092 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnMonitors status=SUCCESS method=PageTestCases.ClickOnMonitors()[pri:3, instan...)</span>
+                <span class="method-start">16436 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnAddtocart</span>
+                <span class="method-start">16789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnAddtocart status=SUCCESS method=PageTestCases.ClickOnAddtocart()[pri:4, inst...)</span>
+                <span class="method-start">22302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ClickOnSearchBar</span>
+                <span class="method-start">22766 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnSearchBar status=FAILURE method=PageTestCases.ClickOnSearchBar()[pri:5, inst...)</span>
+                <span class="method-start">23105 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ClickOnProductReview</span>
+                <span class="method-start">23569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnProductReview status=FAILURE method=PageTestCases.ClickOnProductReview()[pri...)</span>
+                <span class="method-start">34390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ClickOnFiltersAndSortBy</span>
+                <span class="method-start">34728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnFiltersAndSortBy status=FAILURE method=PageTestCases.ClickOnFiltersAndSortBy...)</span>
+                <span class="method-start">47549 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickOnContactWithValidData(anakha@23.com, Anakha Sabu, How are you ?)</span>
+                <span class="method-start">48670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clickOnContactWithValidData status=SUCCESS method=PageTestCases.clickOnContactWithV...)</span>
+                <span class="method-start">49735 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickOnContactWithEmptyData</span>
+                <span class="method-start">52053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clickOnContactWithEmptyData status=FAILURE method=PageTestCases.clickOnContactWithE...)</span>
+                <span class="method-start">52762 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickOnInvalidData(anakha@23.com, 4521.0, &*&^^&*)</span>
+                <span class="method-start">53955 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=clickOnInvalidData status=FAILURE method=PageTestCases.clickOnInvalidData(java.lang...)</span>
+                <span class="method-start">54905 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickonsignValidUsernameandPassword(Supriya, 54762.0)</span>
+                <span class="method-start">56139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickonsignValidUsernameandPassword status=SUCCESS method=PageTestCases.Clickonsign...)</span>
+                <span class="method-start">58286 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickonSigninAlreadyexsitedUsernameandPassword(Anakha, Test123)</span>
+                <span class="method-start">58777 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickonSigninAlreadyexsitedUsernameandPassword status=SUCCESS method=PageTestCases....)</span>
+                <span class="method-start">60262 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickSignEmptUsernameandPassword</span>
+                <span class="method-start">60534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickSignEmptUsernameandPassword status=SUCCESS method=PageTestCases.ClickSignEmptU...)</span>
+                <span class="method-start">61303 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClicksignUsernameOnly</span>
+                <span class="method-start">61788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClicksignUsernameOnly status=SUCCESS method=PageTestCases.ClicksignUsernameOnly()[p...)</span>
+                <span class="method-start">62724 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClicksignPasswordOnly</span>
+                <span class="method-start">63159 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClicksignPasswordOnly status=SUCCESS method=PageTestCases.ClicksignPasswordOnly()[p...)</span>
+                <span class="method-start">64010 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickLoginValidUsernameandInvalidPassword(Charulatha S, 1111.0)</span>
+                <span class="method-start">64421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickLoginValidUsernameandInvalidPassword status=SUCCESS method=PageTestCases.Click...)</span>
+                <span class="method-start">67639 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickLoginInvalidUsernameandValidPassword(kathrinaa, 89745.0)</span>
+                <span class="method-start">68148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickLoginInvalidUsernameandValidPassword status=SUCCESS method=PageTestCases.Click...)</span>
+                <span class="method-start">69663 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickLogValidUsernameandValidPassword(Jyothika, 254312.0)</span>
+                <span class="method-start">70216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickLogValidUsernameandValidPassword status=SUCCESS method=PageTestCases.ClickLogV...)</span>
+                <span class="method-start">71205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClikOnCart</span>
+                <span class="method-start">71692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClikOnCart status=SUCCESS method=PageTestCases.ClikOnCart()[pri:19, instance:com.te...)</span>
+                <span class="method-start">75096 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ClickOnDelete</span>
+                <span class="method-start">75427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnDelete status=FAILURE method=PageTestCases.ClickOnDelete()[pri:20, instance:...)</span>
+                <span class="method-start">85852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnEmptyData</span>
+                <span class="method-start">86141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnEmptyData status=SUCCESS method=PageTestCases.ClickOnEmptyData()[pri:21, ins...)</span>
+                <span class="method-start">86935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ClickonInvalidData(65565.0, 67787.0, 897798.0, 8.9789789E7, 9889.0, knjhjh)</span>
+                <span class="method-start">87419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickonInvalidData status=FAILURE method=PageTestCases.ClickonInvalidData(java.lang...)</span>
+                <span class="method-start">88999 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnValidData(Charulatha, India, Kollam, 5678.0, March, 2023.0)</span>
+                <span class="method-start">89561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnValidData status=SUCCESS method=PageTestCases.ClickOnValidData(java.lang.Str...)</span>
+                <span class="method-start">92220 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnPlayVideo</span>
+                <span class="method-start">92743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnPlayVideo status=SUCCESS method=PageTestCases.ClickOnPlayVideo()[pri:24, ins...)</span>
+                <span class="method-start">93622 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnScreensize</span>
+                <span class="method-start">94069 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnScreensize status=SUCCESS method=PageTestCases.ClickOnScreensize()[pri:25, i...)</span>
+                <span class="method-start">94460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnVolumebutton</span>
+                <span class="method-start">94977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnVolumebutton status=SUCCESS method=PageTestCases.ClickOnVolumebutton()[pri:2...)</span>
+                <span class="method-start">95257 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnPause</span>
+                <span class="method-start">95726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnPause status=SUCCESS method=PageTestCases.ClickOnPause()[pri:27, instance:co...)</span>
+                <span class="method-start">95882 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ClickOnAboutUsClose</span>
+                <span class="method-start">96359 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=ClickOnAboutUsClose status=SUCCESS method=PageTestCases.ClickOnAboutUsClose()[pri:2...)</span>
+                <span class="method-start">96585 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">97121 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

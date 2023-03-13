@@ -1,0 +1,32 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="c16b87">  <td>23/03/07 16:51:11</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PageTestCases.ClickOnAddtocart()[pri:4, instance:com.test.PageTestCases@7b9a4292]">ClickOnAddtocart</td> 
+  <td>main@1510467688</td>   <td></td> </tr>
+<tr bgcolor="c16b87">  <td>23/03/07 16:51:42</td>   <td>31701</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PageTestCases.ClickOnCart()[pri:11, instance:com.test.PageTestCases@7b9a4292]">ClickOnCart</td> 
+  <td>main@1510467688</td>   <td></td> </tr>
+<tr bgcolor="c16b87">  <td>23/03/07 16:51:43</td>   <td>32709</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PageTestCases.ClickOnDelete()[pri:12, instance:com.test.PageTestCases@7b9a4292]">ClickOnDelete</td> 
+  <td>main@1510467688</td>   <td></td> </tr>
+<tr bgcolor="c16b87">  <td>23/03/07 16:51:27</td>   <td>16444</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PageTestCases.ClickOnFiltersAndSortBy()[pri:7, instance:com.test.PageTestCases@7b9a4292]">ClickOnFiltersAndSortBy</td> 
+  <td>main@1510467688</td>   <td></td> </tr>
+<tr bgcolor="c16b87">  <td>23/03/07 16:51:00</td>   <td>-10774</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PageTestCases.ClickOnLaptops()[pri:2, instance:com.test.PageTestCases@7b9a4292]">ClickOnLaptops</td> 
+  <td>main@1510467688</td>   <td></td> </tr>
+<tr bgcolor="c16b87">  <td>23/03/07 16:51:00</td>   <td>-10625</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PageTestCases.ClickOnMonitors()[pri:3, instance:com.test.PageTestCases@7b9a4292]">ClickOnMonitors</td> 
+  <td>main@1510467688</td>   <td></td> </tr>
+<tr bgcolor="c16b87">  <td>23/03/07 16:50:59</td>   <td>-11154</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PageTestCases.ClickOnPhones()[pri:1, instance:com.test.PageTestCases@7b9a4292]">ClickOnPhones</td> 
+  <td>main@1510467688</td>   <td></td> </tr>
+<tr bgcolor="c16b87">  <td>23/03/07 16:51:16</td>   <td>5228</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PageTestCases.ClickOnProductReview()[pri:6, instance:com.test.PageTestCases@7b9a4292]">ClickOnProductReview</td> 
+  <td>main@1510467688</td>   <td></td> </tr>
+<tr bgcolor="c16b87">  <td>23/03/07 16:51:15</td>   <td>4935</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PageTestCases.ClickOnSearchBar()[pri:5, instance:com.test.PageTestCases@7b9a4292]">ClickOnSearchBar</td> 
+  <td>main@1510467688</td>   <td></td> </tr>
+<tr bgcolor="c16b87">  <td>23/03/07 16:51:45</td>   <td>34450</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PageTestCases.ClickOnValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:13, instance:com.test.PageTestCases@7b9a4292]">ClickOnValidData</td> 
+  <td>main@1510467688</td>   <td></td> </tr>
+<tr bgcolor="c16b87">  <td>23/03/07 16:51:41</td>   <td>30519</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PageTestCases.clickOnContact(java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:com.test.PageTestCases@7b9a4292]">clickOnContact</td> 
+  <td>main@1510467688</td>   <td></td> </tr>
+<tr bgcolor="c16b87">  <td>23/03/07 16:51:40</td>   <td>29103</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PageTestCases.clickOnContactWithInvalidData()[pri:9, instance:com.test.PageTestCases@7b9a4292]">clickOnContactWithInvalidData</td> 
+  <td>main@1510467688</td>   <td></td> </tr>
+<tr bgcolor="c16b87">  <td>23/03/07 16:51:39</td>   <td>28283</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="PageTestCases.clickOnContactWithValidData(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:com.test.PageTestCases@7b9a4292]">clickOnContactWithValidData</td> 
+  <td>main@1510467688</td>   <td></td> </tr>
+<tr bgcolor="c16b87">  <td>23/03/07 16:50:56</td>   <td>-15015</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;PageTestCases.setUp()[pri:0, instance:com.test.PageTestCases@7b9a4292]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1510467688</td>   <td></td> </tr>
+</table>

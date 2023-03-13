@@ -1,0 +1,16 @@
+package com.pages;
+
+import org.openqa.selenium.support.PageFactory;
+
+import com.TestBase.TestBase;
+import com.Utilities.Wrapper;
+
+public class AboutusPage extends TestBase {
+	Wrapper wrrobj = new Wrapper();
+	
+
+	public AboutusPage() {
+		PageFactory.initElements(driver, this);
+	}
+
+}

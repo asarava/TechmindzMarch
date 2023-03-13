@@ -1,0 +1,76 @@
+package com.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
+import com.TestBase.TestBase;
+import com.Utilities.Wrapper;
+
+public class LoginPage extends TestBase {
+
+	Wrapper wrrobj = new Wrapper();
+
+	@FindBy(id = "login2")
+	WebElement pLogInButton;
+
+	@FindBy(id = "loginusername")
+	WebElement pLogInUserName;
+
+	@FindBy(id = "loginpassword")
+	WebElement pLogInPassword;
+
+	@FindBy(xpath = "(//*[@type='button'])[9]")
+	WebElement pLogIn;
+
+	@FindBy(xpath = "(//*[@type='button'])[1]")
+	WebElement pLogclose;
+
+	@FindBy(id = "nameofuser")
+	WebElement pUsername;
+
+	public LoginPage() {
+		PageFactory.initElements(driver, this);
+	}
+
+	public String LoginValidUsernameandPassword(String Username, String Password) {
+		pLogInButton.click();
+		wrrobj.explictWaitElementToBeClickable(driver, pLogInUserName);
+		pLogInUserName.sendKeys(Username);
+		pLogInPassword.sendKeys(Password);
+		wrrobj.explictWaitElementToBeClickable(driver, pLogIn);
+		pLogIn.click();
+		wrrobj.explictWaitAlert(driver);
+		String pWelcomeUsername = pUsername.getText();
+		System.out.println(pWelcomeUsername);
+		return pWelcomeUsername;
+
+	}
+	public String LoginValidUsernameandInvalidPassword(String Username, String Password) {
+		pLogInButton.click();
+		wrrobj.explictWaitElementToBeClickable(driver, pLogInUserName);
+		pLogInUserName.sendKeys(Username);
+		pLogInPassword.sendKeys(Password);
+		wrrobj.explictWaitElementToBeClickable(driver, pLogIn);
+		pLogIn.click();
+		wrrobj.explictWaitAlert(driver);
+		String Actualmsg = wrrobj.alertText(driver);
+		String Expectedmsg = "Wrong password.";
+		Assert.assertEquals(Actualmsg, Expectedmsg);
+		return Expectedmsg ;
+	}
+	public String LoginInalidUsernameandValidPassword(String Username, String Password) {
+		pLogInButton.click();
+		wrrobj.explictWaitElementToBeClickable(driver, pLogInUserName);
+		pLogInUserName.sendKeys(Username);
+		pLogInPassword.sendKeys(Password);
+		wrrobj.explictWaitElementToBeClickable(driver, pLogIn);
+		pLogIn.click();
+		wrrobj.explictWaitAlert(driver);
+		String Actualmsg = wrrobj.alertText(driver);
+		String Expectedmsg = "User does not exist.";
+		Assert.assertEquals(Actualmsg, Expectedmsg);
+		return Expectedmsg
+	}
+}
