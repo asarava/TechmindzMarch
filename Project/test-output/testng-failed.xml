@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.test.HomePageTestCases">
+        <methods>
+          <include name="Review"/>
+          <include name="clickonLogin"/>
+          <include name="endReport"/>
+          <include name="clickcart"/>
+          <include name="clickAboutUs"/>
+          <include name="clickCartButton"/>
+          <include name="clickLoginButton"/>
+          <include name="VoiceSearch"/>
+          <include name="clickLogInButton"/>
+          <include name="validContactdata"/>
+          <include name="Monitors"/>
+          <include name="Laptops"/>
+          <include name="setUp"/>
+          <include name="Phones"/>
+          <include name="ClickSignUpButton"/>
+          <include name="invalidContactdata"/>
+          <include name="setExtent"/>
+          <include name="SortOption"/>
+          <include name="clickSignUpButton"/>
+          <include name="clickSignUpButton"/>
+          <include name="tearDown"/>
+          <include name="Search"/>
+          <include name="ClickOnLogin"/>
+          <include name="Filter"/>
+        </methods>
+      </class> <!-- com.test.HomePageTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
